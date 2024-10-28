@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Worldie Soccer Stats
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+   * [Matches](#matches)
+   * [League Standings](#league-standings)
+   * [Top Scorers](#top-scorers)
+3. [Get Started](#get-started)
+## Overview
+Worldie Soccer Stats is an iOS App that allows you to view match info, league standings, and top scorers amongst European soccer leagues. You can view matches by date for the current season, including seeing past results and future match dates and times. You can aso view league standings and top scorers for any of the past 5 seasons.
 
-## Available Scripts
+All data is pulled from the [Football Data API](https://www.football-data.org).
+<a href="https://ibb.co/3fQt1WV"><img src="https://i.ibb.co/B4F8Ljv/Screenshot-2024-10-28-at-1-20-43-AM.png" alt="Screenshot-2024-10-28-at-1-20-43-AM" border="0"></a>
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Matches
+#### Toggle Matches
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm8zb2hka3JybWxpdzYyMm02dGRyZzcyOTBhbTc2M3F3bHExbHI2NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9tUV9rhyJ5Roa4Kmig/giphy.gif">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Select Match Date
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3kyanBmYjhsMXZ4ZjdrcTM0ejhodHdmZzIwYjhrMHk2cno2YTJoMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/enfi6Dww1UcBXMIXWv/giphy.gif">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### League Standings
+#### View League Standings by year
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3l3Y2NjMXg1OWJnN2M4ZXM2NzRkOWppZDhiMjZraHFiaHdsNDB1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KRkG1Q6HvWIqBxOnZ7/giphy.gif">
 
-### `npm test`
+### Top Scorers
+#### View Top Scorers by year
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjIweTY2Yzdlc3I0NmRjY3FrdW13dmY0dTJsaDB4eWFpczA3a243bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RM9aJBg76v3SCA6N2I/giphy.gif">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Get Started
+Worldie soccer stats is built in XCode with SwiftUI. It requires iOS version > 15.0 and having XCode + iOS simulator installed on your Mac. 
 
-### `npm run build`
+### Required Swift packages
+In order to run Worldie Soccer Stats, first add the following package dependencies:
+* CocoaLumberjack (3.8.5)
+* SVGKit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Football-Data API key
+Next, you need to go to the website for [Football Data API](https://www.football-data.org) and retrieve your custom API key. You can do so by making an account, and you'll receive your key via email. Place this key as the apiKey variable in the WorldieSoccerStatsApp swift file. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Just like that, you're ready to run the Worldie Soccer Stats app!
