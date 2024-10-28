@@ -1,4 +1,4 @@
-# Worldie Soccer Stats
+# Premier League Match Predictor Web Application
 
 ## Table of Contents
 1. [Overview](#overview)
