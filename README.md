@@ -14,6 +14,7 @@ The Premier League Predictor is a React app that leverages the machine learning 
 The first requirement to run this application is to have react installed via Pip on your system. The app also requires that you have a flask connection to an ML model for match prediction. See my github repository "Premier League Predictor Model" to find the backend pipeline that this app runs with.
 
 To run the project with react:
+
 npm start
 
 This will start the application on the local server http://localhost:3000.
