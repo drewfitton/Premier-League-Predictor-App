@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Overview](#overview)
 2. [Requirements](#requirements)
-3. 
+
 ## Overview
 The Premier League Predictor is a React app that leverages the machine learning model found in my "Premier League Predictor Model" repository in order to allow users to input upcoming premier league matches, and return a predicted outcome. This model connects to the ML model using Flask and outputs predictions based on standings, team form, and teams performance against teams similar to their opponent.
 
